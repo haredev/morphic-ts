@@ -1,6 +1,6 @@
 ---
 title: interpreters/eq/intersections.ts
-nav_order: 22
+nav_order: 28
 parent: Modules
 ---
 

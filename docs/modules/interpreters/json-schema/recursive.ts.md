@@ -1,6 +1,6 @@
 ---
 title: interpreters/json-schema/recursive.ts
-nav_order: 60
+nav_order: 70
 parent: Modules
 ---
 

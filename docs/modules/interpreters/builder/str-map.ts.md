@@ -1,6 +1,6 @@
 ---
-title: interpreters/builder/collections.ts
-nav_order: 10
+title: interpreters/builder/str-map.ts
+nav_order: 23
 parent: Modules
 ---
 
@@ -8,7 +8,7 @@ parent: Modules
 
 <h2 class="text-delta">Table of contents</h2>
 
-- [builderStrMapInterpreter (constant)](#buildercollectioninterpreter-constant)
+- [builderStrMapInterpreter (constant)](#builderstrmapinterpreter-constant)
 
 ---
 

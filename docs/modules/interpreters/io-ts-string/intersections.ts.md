@@ -1,6 +1,6 @@
 ---
 title: interpreters/io-ts-string/intersections.ts
-nav_order: 39
+nav_order: 47
 parent: Modules
 ---
 

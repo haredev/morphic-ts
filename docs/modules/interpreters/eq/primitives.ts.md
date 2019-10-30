@@ -1,6 +1,6 @@
 ---
 title: interpreters/eq/primitives.ts
-nav_order: 24
+nav_order: 30
 parent: Modules
 ---
 

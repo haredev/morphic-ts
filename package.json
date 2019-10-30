@@ -38,16 +38,15 @@
     "@types/chai": "4.2.3",
     "chai": "4.2.0",
     "fast-check": "^1.17.0",
-    "fp-ts": "^2.0.0",
-    "io-ts": "^2.0.0",
-    "io-ts-types": "^0.5.0",
-    "monocle-ts": "^2.0.0",
-    "newtype-ts": "^0.3.0"
+    "fp-ts": "^1.9.0",
+    "io-ts": "^1.10.0",
+    "io-ts-types": "^0.4.0",
+    "monocle-ts": "^1.7.0"
   },
   "devDependencies": {
     "@types/jest": "22.2.2",
     "@types/node": "12.6.8",
-    "docs-ts": "^0.2.1",
+    "docs-ts": "^0.0.3",
     "dtslint": "github:gcanti/dtslint",
     "jest": "^24.8.0",
     "mocha": "^6.2.1",

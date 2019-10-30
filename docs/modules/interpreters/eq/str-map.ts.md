@@ -1,6 +1,6 @@
 ---
-title: interpreters/eq/collections.ts
-nav_order: 19
+title: interpreters/eq/str-map.ts
+nav_order: 33
 parent: Modules
 ---
 
@@ -8,7 +8,7 @@ parent: Modules
 
 <h2 class="text-delta">Table of contents</h2>
 
-- [eqStrMapInterpreter (constant)](#eqcollectioninterpreter-constant)
+- [eqStrMapInterpreter (constant)](#eqstrmapinterpreter-constant)
 
 ---
 

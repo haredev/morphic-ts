@@ -1,6 +1,6 @@
 ---
 title: interpreters/eq/object.ts
-nav_order: 23
+nav_order: 29
 parent: Modules
 ---
 

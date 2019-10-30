@@ -1,6 +1,6 @@
 ---
 title: interpreters/io-ts/object.ts
-nav_order: 49
+nav_order: 58
 parent: Modules
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: interpreters/fast-check/intersections.ts
-nav_order: 30
+nav_order: 37
 parent: Modules
 ---
 

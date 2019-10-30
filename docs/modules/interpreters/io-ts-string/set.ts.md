@@ -1,6 +1,6 @@
 ---
-title: interpreters/io-ts-string/collections.ts
-nav_order: 36
+title: interpreters/io-ts-string/set.ts
+nav_order: 51
 parent: Modules
 ---
 
@@ -17,5 +17,5 @@ parent: Modules
 **Signature**
 
 ```ts
-export const ioTsStringSetInterpreter: ModelAlgebraStrMap2<URI> = ...
+export const ioTsStringSetInterpreter: ModelAlgebraSet2<URI> = ...
 ```

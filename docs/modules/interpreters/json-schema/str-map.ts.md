@@ -1,6 +1,6 @@
 ---
-title: interpreters/json-schema/collections.ts
-nav_order: 54
+title: interpreters/json-schema/str-map.ts
+nav_order: 72
 parent: Modules
 ---
 
@@ -8,7 +8,7 @@ parent: Modules
 
 <h2 class="text-delta">Table of contents</h2>
 
-- [jsonSchemaStrMapInterpreter (constant)](#jsonschemacollectioninterpreter-constant)
+- [jsonSchemaStrMapInterpreter (constant)](#jsonschemastrmapinterpreter-constant)
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: interpreters/show/collections.ts
-nav_order: 79
+title: interpreters/show/str-map.ts
+nav_order: 89
 parent: Modules
 ---
 
@@ -8,7 +8,7 @@ parent: Modules
 
 <h2 class="text-delta">Table of contents</h2>
 
-- [showStrMapInterpreter (constant)](#showcollectioninterpreter-constant)
+- [showStrMapInterpreter (constant)](#showstrmapinterpreter-constant)
 
 ---
 

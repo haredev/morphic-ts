@@ -128,7 +128,7 @@ export const ObjectTypeCtor = (isPartial: boolean, props: [string, OptionalJSONS
   )
 
   const properties = pipe(
-    record.fromFoldable({ concat: (fst: OptionalJSONSchema, _snd: OptionalJSONSchema) => fst }, array.array)(props),
+    record.fromFoldable(array.array)(props, (fst: OptionalJSONSchema, _snd: OptionalJSONSchema) => fst),
     record.map(({ json }) => json)
   )
 

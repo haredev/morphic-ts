@@ -1,6 +1,6 @@
 ---
 title: interpreters/fast-check/tagged-unions.ts
-nav_order: 34
+nav_order: 43
 parent: Modules
 ---
 

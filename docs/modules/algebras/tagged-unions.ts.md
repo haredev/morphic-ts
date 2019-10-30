@@ -1,6 +1,6 @@
 ---
 title: algebras/tagged-unions.ts
-nav_order: 6
+nav_order: 7
 parent: Modules
 ---
 
@@ -26,8 +26,18 @@ parent: Modules
 export interface ModelAlgebraTaggedUnions {
   taggedUnion<Tag extends string, Types extends TaggedTypes<Tag, any, any>>(
     tag: Tag,
-    types: Types & { [o in keyof Types]: DecorateTag<Types[o], Tag, o> }
-  ): M<{ [k in keyof Types]: Types[k]['_L'] }[keyof Types], { [k in keyof Types]: Types[k]['_A'] }[keyof Types]>
+    types: Types &
+      {
+        [o in keyof Types]: DecorateTag<Types[o], Tag, o>
+      }
+  ): M<
+    {
+      [k in keyof Types]: Types[k]['_L']
+    }[keyof Types],
+    {
+      [k in keyof Types]: Types[k]['_A']
+    }[keyof Types]
+  >
 }
 ```
 

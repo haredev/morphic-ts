@@ -1,6 +1,6 @@
 ---
 title: interpreters/io-ts/index.ts
-nav_order: 46
+nav_order: 55
 parent: Modules
 ---
 

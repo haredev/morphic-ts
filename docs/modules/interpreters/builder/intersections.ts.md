@@ -1,6 +1,6 @@
 ---
 title: interpreters/builder/intersections.ts
-nav_order: 13
+nav_order: 18
 parent: Modules
 ---
 

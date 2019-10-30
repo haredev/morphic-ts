@@ -1,6 +1,6 @@
 ---
 title: interpreters/io-ts-string/primitives.ts
-nav_order: 41
+nav_order: 49
 parent: Modules
 ---
 

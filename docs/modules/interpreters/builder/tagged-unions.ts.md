@@ -1,6 +1,6 @@
 ---
 title: interpreters/builder/tagged-unions.ts
-nav_order: 17
+nav_order: 24
 parent: Modules
 ---
 

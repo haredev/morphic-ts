@@ -1,6 +1,6 @@
 ---
 title: interpreters/fast-check/primitives.ts
-nav_order: 32
+nav_order: 39
 parent: Modules
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: interpreters/io-ts-string/interpreters.ts
-nav_order: 38
+nav_order: 46
 parent: Modules
 ---
 

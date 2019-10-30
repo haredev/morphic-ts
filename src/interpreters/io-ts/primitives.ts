@@ -1,6 +1,5 @@
 import * as t from 'io-ts'
-import { optionFromNullable } from 'io-ts-types/lib/optionFromNullable'
-import { DateFromISOString } from 'io-ts-types/lib/DateFromISOString'
+import { DateFromISOString, createOptionFromNullable } from 'io-ts-types'
 import { IOTSType, URI } from '.'
 import { ModelAlgebraPrimitive1 } from '../../algebras/primitives'
 
@@ -11,6 +10,6 @@ export const ioTsPrimitiveInterpreter: ModelAlgebraPrimitive1<URI> = {
   number: new IOTSType(t.number),
   stringLiteral: l => new IOTSType(t.literal(l)),
   keysOf: k => new IOTSType(t.keyof(k)),
-  nullable: T => new IOTSType(optionFromNullable(T.type)),
+  nullable: T => new IOTSType(createOptionFromNullable(T.type)),
   array: T => new IOTSType(t.array(T.type))
 }

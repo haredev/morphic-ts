@@ -1,6 +1,6 @@
 ---
 title: interpreters/io-ts-string/unions.ts
-nav_order: 44
+nav_order: 54
 parent: Modules
 ---
 

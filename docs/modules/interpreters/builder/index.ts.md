@@ -1,6 +1,6 @@
 ---
 title: interpreters/builder/index.ts
-nav_order: 11
+nav_order: 16
 parent: Modules
 ---
 
@@ -10,10 +10,12 @@ parent: Modules
 
 - [Builder (type alias)](#builder-type-alias)
 - [BuilderValue (type alias)](#buildervalue-type-alias)
+- [ByTag (type alias)](#bytag-type-alias)
 - [URI (type alias)](#uri-type-alias)
 - [BuilderType (class)](#buildertype-class)
 - [URI (constant)](#uri-constant)
 - [makeBuilder (function)](#makebuilder-function)
+- [makeByTag (function)](#makebytag-function)
 
 ---
 
@@ -33,6 +35,16 @@ export type Builder<T> = (x: T) => T
 export type BuilderValue<B extends BuilderType<any>> = B extends BuilderType<infer A> ? A : never
 ```
 
+# ByTag (type alias)
+
+**Signature**
+
+```ts
+export type ByTag<A> = <Tag extends TagsOf<A> & string>(
+  t: Tag
+) => <Tags extends (A[Tag] & string)[]>(...tags: Tags) => ADT<A, Tag, ElemType<typeof tags>>
+```
+
 # URI (type alias)
 
 **Signature**
@@ -47,7 +59,7 @@ export type URI = typeof URI
 
 ```ts
 export class BuilderType<A> {
-  constructor(public builder: Builder<A>) { ... }
+  constructor(public of: Builder<A>) { ... }
   ...
 }
 ```
@@ -66,4 +78,12 @@ export const URI = ...
 
 ```ts
 export const makeBuilder = <A>() => ...
+```
+
+# makeByTag (function)
+
+**Signature**
+
+```ts
+export const makeByTag = <A>(): ByTag<A> => tag => (..._keys) => ...
 ```

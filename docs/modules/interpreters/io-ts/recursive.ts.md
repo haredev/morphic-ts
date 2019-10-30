@@ -1,6 +1,6 @@
 ---
 title: interpreters/io-ts/recursive.ts
-nav_order: 51
+nav_order: 60
 parent: Modules
 ---
 

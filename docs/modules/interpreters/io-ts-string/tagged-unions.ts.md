@@ -1,6 +1,6 @@
 ---
 title: interpreters/io-ts-string/tagged-unions.ts
-nav_order: 43
+nav_order: 53
 parent: Modules
 ---
 
